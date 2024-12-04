@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f6f0;
+}
+
+.todo-container {
+    background-color: #1c1c1c;
+    color: #ffcccc;
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #ffcccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+ul li {
+    background-color: transparent;
+    border: 1px solid #ffcccc;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 10px;
+    text-align: left;
+    color: #ffcccc;
+}
+
+.input-container input {
+    width: 85%;
+    padding: 10px;
+    border: 1px solid #ffcccc;
+    border-radius: 5px;
+    background-color: #333;
+    color: #ffcccc;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #333;
+    color: #ffcccc;
+    border: 1px solid #ffcccc;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ffcccc;
+    color: #1c1c1c;
+}
